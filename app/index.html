@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A simple HTML calculator running on JavaScript.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simple HTML Calculator</title>
+
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body>
+
+    <main>
+      <div id="calcBody">
+        <div id="currentValueField"></div>
+        <div id="buttonContainer">
+          <div id="numberKeyContainer">
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button>0</button>
+          </div>
+          <div id="functionKeyContainer">
+            <button id="plusKey">+</button>
+            <button id="minusKey">-</button>
+            <button id="timesKey">&times;</button>
+            <button id="divideKey">&divide;</button>
+            <button id="equalsKey">=</button>
+          </div>
+          <div id="utilityKeyContainer">
+            <button id="AC">AC</button>
+            <button id="DEL">DEL</button>
+            <button id="pt"><strong>.</strong></button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="scripts/jquery-2.1.4.min.js"></script>
+    <!-- build:js scripts/main.min.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+
+
+  </body>
+</html>
